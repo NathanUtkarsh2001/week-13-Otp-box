@@ -1,0 +1,14 @@
+//Toggle Theme
+//App.jsx
+function App() {
+  return <>
+        <div className = "h-screen  bg-white dark:bg-black">
+          <h1 className='text-black dark:text-white'></h1>
+          <button onClick={() => {
+            document.querySelector("html").classList.toggle("dark")
+          }} className='dark:text-white text-black'>Toggle Theme</button>
+
+        </div>
+  </>
+}
+-----------------------------------------------------------------------------------------------------
